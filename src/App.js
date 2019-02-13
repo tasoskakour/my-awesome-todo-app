@@ -1,12 +1,14 @@
 import React from 'react';
-import { MainScreen } from './screens'
+import { Provider } from 'react-redux'
+import { store } from './redux/createStore'
+import { MainScreen } from './screens';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <Provider store={store}>
         <MainScreen />
-      </div>
+      </Provider>
 
     );
   }
