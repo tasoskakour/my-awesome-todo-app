@@ -1,0 +1,7 @@
+ul.nav.nav-tabs{
+    justify-content: center;
+}
+
+li.nav-item{
+    cursor: pointer;
+}

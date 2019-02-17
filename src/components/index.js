@@ -1,1 +1,8 @@
 export { default as AppBar } from './AppBar/AppBar'
+export { default as TodoItem } from './TodoItem/TodoItem'
+export { default as TodoItemsGrid } from './TodoItemsGrid/TodoItemGrid'
+export { default as CardAddNewItem } from './CardAddNewItem/CardAddNewItem'
+export { default as TodoItemInputGroup } from './TodoItemInputGroup/TodoItemInputGroup'
+export { default as Tabs } from './Tabs/Tabs'
+export { default as TabContent } from './TabContent/TabContent'
+export { default as Footer } from './Footer/Footer'

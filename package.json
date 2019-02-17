@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "javascript-time-ago": "https://github.com/tasoskakour/javascript-time-ago/releases/download/1.0.31.1/javascript-time-ago-1.0.31.tgz",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-redux": "^6.0.0",

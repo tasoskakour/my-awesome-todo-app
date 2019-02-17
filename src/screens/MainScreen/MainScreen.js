@@ -1,22 +1,17 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import { Tabs, TabContent, TodoItemsGrid, Footer } from '../../components'
 
-const mapStateToProps = state => ({
-    items: state.todo.items
-})
-const mapDispatchToProps = {
-
+const MainScreen = () => {
+    return (
+        <div>
+            <Tabs />
+            <TabContent
+                Contents={[
+                    <TodoItemsGrid completed={false} />,
+                    <TodoItemsGrid completed />]} />
+            <Footer />
+        </div>
+    )
 }
 
-class MainScreen extends React.Component {
-
-    componentDidMount() {
-        console.log(this.props);
-    }
-
-    render() {
-        return <div>This is the main screen</div>
-    }
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(MainScreen);
+export default MainScreen;

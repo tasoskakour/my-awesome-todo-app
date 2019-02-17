@@ -1,0 +1,16 @@
+.new-item-card-container{
+    height: 100%;
+    min-height: 240px;
+    cursor:pointer;
+}
+
+.new-item-card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.new-item-card-container:hover{
+    background-color: rgba(0,0,0,.03);
+   
+}
